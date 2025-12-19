@@ -1,0 +1,121 @@
+.devsadhna-heading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 34px;
+  color: #e65800;
+}
+
+.devsadhna-bg {
+  /* background-image: url('mantrasadhna/bg.svg');
+    background-repeat: no-repeat; */
+}
+
+.devsadhna-heading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: right;
+  color: #000000;
+}
+
+.devsadhna-heading-para {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -3%;
+  text-align: right;
+  color: #000000;
+}
+
+.devsadhna-button {
+  background: #f8701b;
+  box-shadow: 0px 4px 4px 0px #98141e;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 47px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 0px 10px;
+}
+
+.devsadhna-bg-2 {
+  background-color: #fff2e2;
+}
+.devsadhna-poojas-section-1 {
+  background-image: url("devsadhna/1.png"), url("devsadhna/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px;
+  height: 300px;
+}
+.devsadhna-poojas-section-2 {
+  background-image: url("devsadhna/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px;
+}
+.devsadhna-poojas-container {
+  background-color: #fff2e2;
+  border: 8px solid #f8701b;
+  border-radius: 134px;
+  min-height: 800px;
+  margin: 0 10px;
+}
+
+.devsadhna-pooja-container {
+  background-image: url("devsadhna/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  max-width: 390px;
+}
+
+.devsadhna-pooja-heading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.devsadhna-pooja-subheading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.devsadhna-pooja-para {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 11px;
+  line-height: 19px;
+  text-align: justify;
+  color: #000000;
+}
+
+.devsadhna-pooja-tag {
+  background: #f8701b;
+  border: 3px solid #98141e;
+  font-weight: 800;
+  font-style: Extra Bold;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+
+.color-E65800{
+  color: #E65800;
+}

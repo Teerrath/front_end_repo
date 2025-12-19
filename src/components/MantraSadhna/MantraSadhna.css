@@ -1,0 +1,394 @@
+.mantrasadhna-bg {
+  background-image: url("mantrasadhna/bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.ram-bg {
+  animation: moveRotate 20s infinite linear;
+}
+
+.h-img {
+  position: relative;
+  margin-top: -395px;
+  max-width: 869px;
+  margin-left: -75px;
+}
+
+.mantrasadhna-inner-images {
+  position: relative;
+  top: 22%;
+  left: 4%;
+}
+
+.content-area {
+  position: relative;
+  margin-top: -40%;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-area-heading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.content-area-para {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 6%;
+  text-align: right;
+}
+
+.content-area-btn {
+  width: 321px;
+  height: 55px;
+  background-color: #f8701b;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 21px;
+  line-height: 47px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 599px) {
+  .mantra-sandhna-heading p {
+    font-size: 22px;
+  }
+  .mantra-sandhna-heading img {
+    width: 35px;
+    height: 35px;
+  }
+  /* .ram-bg {
+    width: 80px !important;
+  }
+  .h-img {
+    max-width: 150px;
+    margin-top: -75px;
+    margin-left: -34px;
+  } */
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1700px) {
+  .h-img {
+    margin-top: -442px;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .h-img {
+    width: 600px !important;
+    margin-top: -340px !important;
+    margin-left: -95px !important;
+  }
+  .ram-bg {
+    width: 380px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
+  .h-img {
+    width: 510px !important;
+    margin-top: -284px !important;
+    margin-left: -101px !important;
+  }
+  .ram-bg {
+    width: 310px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+  .h-img {
+    width: 510px !important;
+    margin-top: -284px !important;
+    margin-left: -101px !important;
+  }
+  .ram-bg {
+    width: 310px !important;
+  }
+}
+
+/* // */
+@media screen and (min-width: 1200px) and (max-width: 1359px) {
+  .content-area-heading {
+    font-size: 30px;
+  }
+  .content-area-para {
+    font-size: 13px;
+  }
+}
+
+/* // */
+
+@media screen and (min-width: 970px) and (max-width: 1199px) {
+  .h-img {
+    width: 410px !important;
+    margin-top: -209px !important;
+    margin-left: -95px !important;
+  }
+  .ram-bg {
+    width: 220px !important;
+  }
+  .content-area-heading {
+    font-size: 23px;
+  }
+  .content-area-para {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 969px) {
+  .h-img {
+    width: 370px !important;
+    margin-top: -203px !important;
+    margin-left: -79px !important;
+  }
+  .ram-bg {
+    width: 220px !important;
+  }
+  .content-area-heading {
+    font-size: 21px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .content-area-para {
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 20px;
+  }
+  .content-area {
+    margin-top: -43% !important;
+  }
+
+  .content-area-btn {
+    width: 260px;
+    height: 46px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 899px) {
+  .h-img {
+    width: 290px !important;
+    margin-top: -165px !important;
+    margin-left: -49px !important;
+  }
+  .ram-bg {
+    width: 190px !important;
+  }
+  .content-area-heading {
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .content-area-para {
+    font-size: 10px;
+    line-height: 18px;
+    margin-right: 20px;
+  }
+  .content-area {
+    margin-top: -40% !important;
+  }
+
+  .content-area-btn {
+    width: 210px;
+    height: 40px;
+    font-size: 14px;
+    line-height: unset;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 799px) {
+  .h-img {
+    width: 250px !important;
+    margin-top: -132px !important;
+    margin-left: -49px !important;
+  }
+  .ram-bg {
+    width: 150px !important;
+  }
+  .content-area-heading {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .content-area-para {
+    font-size: 10px;
+    line-height: 14px;
+    margin-right: 20px;
+    margin-top: 12px;
+  }
+  .content-area {
+    margin-top: -42% !important;
+  }
+
+  .content-area-btn {
+    width: 210px;
+    height: 36px;
+    font-size: 13px;
+    line-height: unset;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  .h-img {
+    width: 250px !important;
+    margin-top: -118px !important;
+    margin-left: -61px !important;
+  }
+  .ram-bg {
+    width: 120px !important;
+  }
+  .content-area-heading {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .content-area-para {
+    font-size: 8px;
+    line-height: 12px;
+    margin-right: 10px;
+    margin-top: 12px;
+  }
+  .content-area {
+    margin-top: -43% !important;
+  }
+
+  .content-area-btn {
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+    line-height: unset;
+  }
+  .content-area-btn-wrapper {
+    margin-right: 24px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .h-img {
+    width: 219px !important;
+    margin-top: -108px !important;
+    margin-left: -50px !important;
+  }
+  .ram-bg {
+    width: 120px !important;
+  }
+  .content-area-heading {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .content-area-para {
+    font-size: 8px;
+    line-height: 12px;
+    margin-right: 10px;
+    margin-top: 12px;
+  }
+  .content-area {
+    margin-top: -42% !important;
+  }
+
+  .content-area-btn {
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+    line-height: unset;
+  }
+  .content-area-btn-wrapper {
+    margin-right: 24px;
+    margin-top: 10px;
+  }
+  .mantrasadhna-wrapper {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 479px) {
+  .h-img {
+    width: 190px !important;
+    margin-top: -97px !important;
+    margin-left: -26px !important;
+    max-width: 170px;
+  }
+  .ram-bg {
+    width: 120px !important;
+  }
+  .content-area-heading {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .content-area-para {
+    font-size: 7px;
+    line-height: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+  }
+  .content-area {
+    margin-top: -44% !important;
+  }
+
+  .content-area-btn {
+    width: 137px;
+    height: 25px;
+    font-size: 9px;
+    line-height: unset;
+  }
+  .content-area-btn-wrapper {
+    margin-right: 24px;
+    margin-top: 0px;
+  }
+  .mantrasadhna-wrapper {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .h-img {
+    width: 190px !important;
+    margin-top: -97px !important;
+    margin-left: -26px !important;
+    max-width: 170px;
+  }
+  .ram-bg {
+    width: 120px !important;
+  }
+  .content-area-heading {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .content-area-para {
+    font-size: 7px;
+    line-height: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+  }
+  .content-area {
+    margin-top: -44% !important;
+  }
+
+  .content-area-btn {
+    width: 137px;
+    height: 25px;
+    font-size: 9px;
+    line-height: unset;
+  }
+  .content-area-btn-wrapper {
+    margin-right: 24px;
+    margin-top: 0px;
+  }
+  .mantrasadhna-wrapper {
+    margin: 0;
+  }
+}

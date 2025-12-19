@@ -1,0 +1,14 @@
+.timer-color {
+  color: #98141e;
+  border: 3px solid #f8701b;
+}
+
+.timer-color-event {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #000000;
+}

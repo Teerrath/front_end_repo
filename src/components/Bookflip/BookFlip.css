@@ -1,0 +1,23 @@
+.book-scene { width: 100%; max-width: 820px; height: 420px; margin: 0 auto; position: relative; user-select: none; }
+.book-left { position: absolute; left: 0; top: 0; bottom: 0; width: 44%; background: linear-gradient(135deg, #a23d1e, #c74d20); border-radius: 12px; transform-origin: left center; transform-style: preserve-3d; transition: transform 900ms cubic-bezier(.2,.9,.2,1), width 300ms; box-shadow: 0 10px 30px rgba(0,0,0,0.25); cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.book-left.left-open { transform: rotateY(12deg) translateX(-6%); }
+.book-right { position: absolute; right: 0; top: 0; bottom: 0; width: 60%; padding-left: 4%; }
+.book-backdrop { position: absolute; inset: 0; border-radius: 8px; background: linear-gradient(180deg, #fffefe, #f3efe8); transform: translateX(-6%); box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 12px 30px rgba(0,0,0,0.12); }
+.page { position: absolute; top: 6%; bottom: 6%; right: 0; width: 100%; transform-style: preserve-3d; transition: transform 700ms cubic-bezier(.2,.9,.2,1), box-shadow 400ms; transform-origin: right center; pointer-events: auto; }
+.page.flipped { transform: rotateY(-180deg); box-shadow: -16px 12px 32px rgba(0,0,0,0.18); }
+.page-inner { position: absolute; inset: 0; background: white; border-radius: 6px; padding: 18px; backface-visibility: hidden; overflow: hidden; box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+.page-cover { background: linear-gradient(180deg, #fff7f2, #fff3ef); }
+.page-paper { background: linear-gradient(180deg, #fffdfa, #fff7f0); }
+.page::after { content: ""; position: absolute; inset: 0; backface-visibility: hidden; transform: rotateY(180deg); border-radius: 6px; background: linear-gradient(180deg, #fff6f0, #fff1ea); }
+@media (max-width:680px) {
+  .book-scene { height: 340px; max-width: 360px; }
+  .book-left { width: 48%; border-radius: 10px; }
+  .book-left.left-open { transform: rotateY(10deg) translateX(-4%); }
+  .book-right { width: 52%; }
+  .page { top: 8%; bottom: 8%; }
+  .page-inner { padding: 12px; }
+  .page-inner h3 { font-size: 1rem; }
+  .page-inner p { font-size: 0.86rem; }
+  .page-inner input { padding: 9px 10px; font-size: 0.92rem; }
+  .page-inner button { padding: 8px 16px; }
+}

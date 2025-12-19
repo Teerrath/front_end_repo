@@ -1,0 +1,58 @@
+.login-wrapper {
+  background-color: var(--rust);
+  border-radius: 26px;
+  background-image: url(./images/mandla.png);
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  /* background-size: cover; */
+  background-size: contain;
+}
+.login-container {
+  background-image: url(./images/formbg.png);
+}
+
+.text-shadow {
+  text-shadow: 0px 4px 4px #c14a00bd;
+  /* text-shadow: 0px 4px 4px 0px #c14a00bd; */
+}
+
+.login-container-new {
+  background-color: var(--rust);
+  border-radius: 26px;
+}
+
+.login-container-new-1 {
+  background-image: url(./images/mandla.png);
+}
+
+@media (max-width: 1300px) {
+  .join-text {
+    font-size: 23px;
+    margin-bottom: unset;
+  }
+  .heading-text {
+    font-size: 36px;
+    margin-bottom: unset;
+  }
+  .sub-heading-text {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .login-flower-container {
+    width: 65px;
+    margin-bottom: unset;
+  }
+  .welcome-text {
+    font-size: 22px;
+  }
+  .login-form input {
+    width: 220px;
+    height: 35px;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .login-form button {
+    padding: 8px 50px;
+    margin-top: 5px;
+  }
+}

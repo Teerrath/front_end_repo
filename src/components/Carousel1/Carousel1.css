@@ -1,0 +1,21 @@
+.upcoming-pooja-container {
+  background-image: url("mantra.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.upcoming-pooja-card-bg {
+  background-image: url("upcomingbg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 84px 84px;
+}
+
+.slick-slide {
+  /* margin-left: -90px; */
+}
+.shadow-custom {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}

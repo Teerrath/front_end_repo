@@ -1,0 +1,82 @@
+.om-img-lg {
+  display: block;
+}
+.om-img-sm {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  /* Override Tailwind utility styles here */
+  .second-container div:first-child {
+    flex-direction: column;
+  }
+  .second-container div {
+    height: 250px;
+  }
+  .second-container div:first-child h2 {
+    font-size: 24px;
+    line-height: unset;
+    margin-left: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 760px) {
+  /* Override Tailwind utility styles here */
+  .second-container {
+    flex-direction: column;
+  }
+  .second-container div {
+    height: 215px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  /* Override Tailwind utility styles here */
+  .download-kundli-btn {
+    font-size: 10px;
+  }
+  .responsive-img {
+    width: 140px;
+  }
+  .top-image {
+    top: -55px;
+    left: -28%;
+  }
+  .bottom-image {
+    bottom: 84px;
+    right: -11%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .kundli-container {
+    margin: 5px;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 1210px) {
+  /* Override Tailwind utility styles here */
+  .poojas-conatiner {
+    gap: 10px;
+  }
+}
+@media (max-width: 870px) {
+  /* Override Tailwind utility styles here */
+  .poojas-conatiner {
+    gap: 10px;
+  }
+  .om-img-lg {
+    display: none;
+  }
+  .om-img-sm {
+    display: block;
+  }
+  .poojas-wrapper ,.poojas-btn-wrapper{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}

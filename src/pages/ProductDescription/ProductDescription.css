@@ -1,0 +1,150 @@
+.product-desc .slick-dots li button:before {
+  font-size: 16px !important;
+  color: #d9d9d9;
+  opacity: 1;
+}
+.product-desc .slick-dots li {
+  width: 30px;
+}
+.product-desc .slick-dots li.slick-active button:before {
+  color: var(--rust-red) !important;
+  opacity: 1;
+}
+
+.product-desc-para {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.product-desc-para-orange {
+  color: #e65800;
+}
+.booking-heading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.booking-now-btn {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #ffffff;
+  background: #006821;
+  border-radius: 50px;
+}
+
+.booking-cards {
+  border-radius: 16px;
+  background-color: #fef2dc;
+  height: 100%;
+}
+.booking-cards .booking-image-box {
+  width: 60px;
+  height: 60px;
+}
+.booking-cards-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #000000;
+}
+
+.about-heading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #f8701b;
+}
+
+.about-heading::before,
+.about-heading::after {
+  height: 4px;
+  background-color: #f8701b;
+  content: "";
+  display: block;
+  width: 30%;
+  /* margin-top: -8px; */
+}
+
+.about-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.about-heading-below {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #f8701b;
+}
+
+.about-line {
+  width: 3px;
+  background-color: #f8701b;
+  /* height: 100%; */
+}
+
+.about-heading-below-right {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 100%;
+  /* text-align: center; */
+  color: #f8701b;
+  text-underline-offset: 4px;
+}
+
+.about-section-bg {
+  background-color: #d9d9d9;
+  height: 400px;
+}
+
+.participate-section {
+  box-shadow: 0px 8px 4px 0px #f8701b9c;
+  border-radius: 33px;
+  height: 226px;
+  background-color: #fef1d3;
+}
+.participate-section-right {
+  height: 362px;
+  border-radius: 35px;
+  background-color: #fef1d3;
+}
+
+.participate-section-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.participate-section-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 36px;
+  color: #000000;
+}

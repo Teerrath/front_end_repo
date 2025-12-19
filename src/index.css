@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color1: #f8701b;
+  --bg-color2: #fe8700;
+  --bg-color3: #f89a1b;
+  --bg-color4: #fffaee;
+  --bg-color5: #fff0cf;
+  --bg-color6: #fffaf6;
+  --bg-color7: #f9f1df;
+  --bg-color-8: #fffbeb;
+
+  --font-size-20: 20px;
+  --font-size-16: 16px;
+  --font-size-48: 48px;
+
+  --font-weight-800: 800;
+  --font-weight-500: 500;
+
+  --font-color-white: #ffffff;
+  --primary-color: #e65800;
+  --rust-red: #98141e;
+  --red: #ff2424;
+  --green: #006821;
+  --black-2: #202020;
+  --rust: #933800;
+  --light-red: #ff5353;
+  --brown:#6B0A11;
+}
+body ,html {
+  margin: 0;
+  padding: 0;
+  max-width: 1800px;
+  margin: 0 auto;
+  line-height: unset;
+    font-family: "Inter", sans-serif !important;
+}
+
+.bg-three-colors {
+  background-image: linear-gradient(
+    to bottom,
+    var(--bg-color1) 0%,
+    var(--bg-color1) 33%,
+    var(--bg-color2) 33%,
+    var(--bg-color2) 66%,
+    var(--bg-color3) 66%,
+    var(--bg-color3) 100%
+  );
+}
+.bg-three-colors-1 {
+  background-image: linear-gradient(
+    to bottom,
+    var(--bg-color1) 0%,
+    var(--bg-color1) 70%,
+    var(--bg-color2) 70%,
+    var(--bg-color2) 90%,
+    var(--bg-color3) 90%,
+    var(--bg-color3) 100%
+  );
+}
+@keyframes marquee-right {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-right {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee-right 20s linear infinite;
+  position: relative;
+}
+.bg-red {
+  background-color: var(--red);
+}
+.bg-green {
+  background-color: var(--green);
+}
+.primary-color-bg {
+  background-color: var(--primary-color);
+}
+.shadow-green {
+  box-shadow: 0px 4px 4px 0px #012b0f;
+}
+.shadow-white {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.bg-mandla {
+  animation: moveRotate 20s infinite linear;
+}
+.bg-language {
+  background-color: var(--bg-color6);
+}
+@keyframes moveRotate {
+  0% {
+    transform: rotate(0deg);
+    /* background-position: 0 0; */
+  }
+  50% {
+    transform: rotate(180deg);
+    /* background-position: 100% 100%; */
+  }
+  100% {
+    transform: rotate(360deg);
+    /* background-position: 0 0; */
+  }
+}
+
+.top-image {
+  position: absolute;
+  top: -125px;
+  left: -10%;
+  transform: translateX(-50%); /* Centers the image horizontally */
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0;
+  right: -10%;
+  transform: translateX(-50%); /* Centers the image horizontally */
+}
+
+.responsive-img {
+  /* width:100px;
+  max-width: 100%; */
+  /* height: auto; */
+}
+
