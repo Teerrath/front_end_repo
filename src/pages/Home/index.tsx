@@ -86,6 +86,7 @@ export default function Home({ isAuthenticated, onClick }: NavbarProps) {
 
   return (
     <>
+    {console.log(isBoxOpen)}
       <Marquee />
       <Navbar isAuthenticated={isAuthenticated} onClick={onClick} />
       <Carousel images={images} height={"h-[690px]"} />
