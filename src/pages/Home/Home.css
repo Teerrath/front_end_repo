@@ -5,6 +5,12 @@
   display: none;
 }
 
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;      /* 👈 number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 @media (max-width: 1150px) {
   /* Override Tailwind utility styles here */
   .second-container div:first-child {

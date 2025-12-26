@@ -4,7 +4,7 @@
   width: 100%;
   /* height: 500px; */
   /* overflow: hidden;  */
-  z-index: -1;
+  z-index: 1;
 }
 
 .mantrasadhna-event-container::before {
@@ -14,7 +14,7 @@
   left: 0;
   width: 200px;
   height: 200px;
-  background-image: url("mantrasadhna/chakra.png");
+  background-image: url("/mantrasadhna/chakra.png");
   background-size: cover;
   background-repeat: no-repeat;
   animation: rotate 12s linear infinite;
@@ -29,7 +29,7 @@
   right: 0;
   width: 200px;
   height: 200px;
-  background-image: url("mantrasadhna/chakra.png");
+  background-image: url("/mantrasadhna/chakra.png");
   background-size: cover;
   background-repeat: no-repeat;
   animation: rotate 12s linear infinite;
@@ -83,3 +83,4 @@
   text-align: center;
   color: #000000;
 }
+

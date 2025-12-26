@@ -11,7 +11,9 @@ import ProductDescription from "../pages/ProductDescription";
 import Register from "../pages/Register";
 import Description from "../pages/Description";
 import DevSadhna from "../pages/DevSadhna";
-import MantraSadhna from "../pages/MantraSadhna";
+import MantraSadhnaPage from "../pages/MantraSadhna";
+import YantraSadhnaPage from "../pages/YantraSadna";
+import DaanSadhnaPage from "../pages/DaanSadhnaPage";
 
 interface AppRoutesProps {
   isAuthenticated: boolean;
@@ -84,7 +86,7 @@ const AppRoutes: React.FC<AppRoutesProps> = ({
         }
       />
       <Route
-        path="/product"
+        path="/pooja/:id"
         element={
           <ProtectedRoute isAllowed={isAuthenticated} redirectPath="/login">
             <ProductDescription  isAuthenticated={isAuthenticated} onClick={onLogout}/>
@@ -111,11 +113,31 @@ const AppRoutes: React.FC<AppRoutesProps> = ({
         path="/mantrasadhna"
         element={
           <ProtectedRoute isAllowed={isAuthenticated} redirectPath="/login">
-            <MantraSadhna />
+            <MantraSadhnaPage />
           </ProtectedRoute>
         }
       />
-  
+     <Route
+        path="/yantrasadhna"
+        element={
+          <ProtectedRoute isAllowed={isAuthenticated} redirectPath="/login">
+            <YantraSadhnaPage />
+          </ProtectedRoute>
+        }
+      />
+
+   <Route
+        path="/daansadhna"
+        element={
+          <ProtectedRoute isAllowed={isAuthenticated} redirectPath="/login">
+            <DaanSadhnaPage />
+          </ProtectedRoute>
+        }
+      />
+
+        
+
+
       
 
       

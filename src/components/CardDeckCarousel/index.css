@@ -1,0 +1,26 @@
+.card-edge-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: #8b0000;
+  font-size: 14px;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
+
+.left-edge {
+  left: 2px;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.right-edge {
+  right: 2px;
+}
+
+.card-edge-text {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}

@@ -1,12 +1,12 @@
 .upcoming-pooja-container {
-  background-image: url("mantra.png");
+  background-image: url("/mantra.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .upcoming-pooja-card-bg {
-  background-image: url("upcomingbg.png");
+  background-image: url("/upcomingbg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;

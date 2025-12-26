@@ -19,15 +19,16 @@ export default function Navbar({ isAuthenticated, onClick }: NavbarProps) {
   };
 
   return (
-    <nav className="text-white py-4 px-6 flex items-center justify-between relative">
+    <nav className="text-white py-1 px-3 flex items-center justify-between relative">
       {/* Logo */}
       <div className="font-sans font-black [font-size:var(--font-size-48)] [color:var(--primary-color)]">
         <Link className="flex items-center" to="/login">
-          <img src="/navbar/logo.svg" className="max-[500px]:h-[50px]" />{" "}
+          <img src="/logo/logo.svg" className="w-[60%]" alt="" />
+          {/* <img src="/navbar/logo.svg" className="max-[500px]:h-[50px]" />{" "}
           <span className="ml-4 max-[500px]:ml-2 max-[500px]:text-[22px]">
             {" "}
             TEERRATH
-          </span>
+          </span> */}
         </Link>
       </div>
 
@@ -35,16 +36,16 @@ export default function Navbar({ isAuthenticated, onClick }: NavbarProps) {
       <ul className="hidden xl:flex space-x-6 items-center">
         <li>
           <Link
-            to="/"
-            className="font-sans font-medium [font-size:var(--font-size-20)] text-[#00000080]"
+            to="/devsadhna"
+            className="font-sans font-medium [font-size:var(--font-size-20)] text-[var(--black-2)]"
           >
-            Vedic Sadhna
+            Dev Sadhna
           </Link>
         </li>
         <li>
           <Link
             to="/mantrasadhna"
-            className="font-sans font-medium [font-size:var(--font-size-20)] text-[#00000080]"
+            className="font-sans font-medium [font-size:var(--font-size-20)] text-[var(--black-2)]"
           >
             Mantra Sadhna
           </Link>
@@ -52,7 +53,15 @@ export default function Navbar({ isAuthenticated, onClick }: NavbarProps) {
         <li>
           <Link
             to="/devsadhna"
-            className="font-sans font-medium [font-size:var(--font-size-20)] text-[#00000080]"
+            className="font-sans font-medium [font-size:var(--font-size-20)] text-[var(--black-2)]"
+          >
+            Yantra Sadhna
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/devsadhna"
+            className="font-sans font-medium [font-size:var(--font-size-20)] text-[var(--black-2)]"
           >
             Daan Sadhna
           </Link>
@@ -60,7 +69,7 @@ export default function Navbar({ isAuthenticated, onClick }: NavbarProps) {
         <li>
           <Link
             to="/teerrath-shop"
-            className="font-sans font-medium [font-size:var(--font-size-20)] text-[#00000080]"
+            className="font-sans font-medium [font-size:var(--font-size-20)] text-[var(--black-2)]"
           >
             Teerrath Shoppe
           </Link>

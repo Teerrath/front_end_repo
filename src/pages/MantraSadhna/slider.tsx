@@ -23,7 +23,7 @@ export default function MantraSlider() {
 
   const handlePlay = () => {
     audioPlayerRef.current?.play();
-    setIsPlaying(!isPlaying)
+    setIsPlaying(!isPlaying);
   };
 
   // const handlePause = () => {
@@ -46,7 +46,7 @@ export default function MantraSlider() {
         effect="coverflow"
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={2.2} // ⭐ gives gap & shows part of side slides
+        // slidesPerView={2.2} // ⭐ gives gap & shows part of side slides
         spaceBetween={100} // ⭐ spacing between slides
         loop={false}
         autoplay={{
@@ -59,6 +59,14 @@ export default function MantraSlider() {
           depth: 150,
           modifier: 1.5,
           slideShadows: false,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+          },
+          1024: {
+            slidesPerView: 2.2,
+          },
         }}
         modules={[EffectCoverflow, Autoplay]}
         className="w-[90%]"

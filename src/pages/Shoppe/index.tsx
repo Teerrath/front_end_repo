@@ -54,7 +54,7 @@ export default function Shoppe({isAuthenticated ,onClick}:NavbarProps) {
             </div>
 
             {/* Testimonial / Review card */}
-            <div className="bg-[#FFF4E6] rounded-xl p-4 shadow h-full">
+            <div className="bg-[#FFF4E6] rounded-xl p-4 shadow h-full ">
               <div className="flex items-center gap-8 pt-4">
                 <div className="w-15 h-13 bg-gray-300 rounded-full"></div>
                 {/* Stars + Title */}

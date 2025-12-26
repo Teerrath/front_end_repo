@@ -1,10 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
 import "./Carousel1.css";
+import { useNavigate } from "react-router-dom";
 
 interface EventCard {
   event: string;
-  date: string;
+  date?: string;
   location: string;
   description: string;
   about: string;
@@ -16,6 +17,7 @@ interface ReactSliderProps {
 }
 
 const ReactSlider: React.FC<ReactSliderProps> = ({ events, children }) => {
+  const navigate = useNavigate();
   const settings = {
     dots: false,
     infinite: true,
@@ -90,7 +92,7 @@ const getItems = (): (EventCard | React.ReactNode)[] => {
                   </p>
                   <p className="mt-4 p-2 font-normal text-[12px] leading-[19px] text-black">{about}</p>
                   <div className="mt-4 text-center">
-                    <button className="bg-[#F8701B] shadow-[0px_4px_4px_0px_#AC4200] rounded-[50px] font-bold text-[28px] leading-[47px] text-center text-white px-10 h-[47px]">
+                    <button onClick={() => navigate(`/pooja/${idx+1}`)} className="bg-green shadow-green shadow-[0px_4px_4px_0px_#AC4200] rounded-[50px] font-bold text-[22px] cursor-pointer leading-[40px] text-center text-white px-10 h-[40px]">
                       Book Now
                     </button>
                   </div>

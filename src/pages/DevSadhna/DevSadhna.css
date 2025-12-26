@@ -47,14 +47,14 @@
   background-color: #fff2e2;
 }
 .devsadhna-poojas-section-1 {
-  background-image: url("devsadhna/1.png"), url("devsadhna/2.png");
+  background-image: url("/devsadhna/1.png"), url("/devsadhna/2.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 30px;
   height: 300px;
 }
 .devsadhna-poojas-section-2 {
-  background-image: url("devsadhna/2.png");
+  background-image: url("/devsadhna/2.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 30px;
@@ -68,7 +68,7 @@
 }
 
 .devsadhna-pooja-container {
-  background-image: url("devsadhna/3.png");
+  background-image: url("/devsadhna/3.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;

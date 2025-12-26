@@ -41,7 +41,7 @@ export default function Reviews() {
         <Slider {...settings}>
           {testimonials.map((t, i) => (
             <div key={i}>
-              <div className="bg-white rounded-lg shadow-md p-6 relative">
+              <div className="bg-white rounded-lg shadow-md p-6 relative h-[200px]">
                 {/* Rating */}
                 <div className="flex mb-3">
                   {Array.from({ length: t.rating }).map((_, idx) => (
